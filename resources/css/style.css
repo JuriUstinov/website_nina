@@ -137,9 +137,9 @@ nav {
     }
 
     #content1 h2 {
+        font-size: 5em;
         text-align: center;
-        height: 150px;
-        margin-bottom: 20px;
+        margin-bottom: 100px;
     }
 
     /* BUTTON */
@@ -208,9 +208,10 @@ nav {
     }
 
     #content1 h2 {
+        font-size: 3em;
         text-align: center;
-        height: 150px;
-        margin: 0 10px;
+        height: ;
+        margin: 0 5px 50px 5px;
     }
 
     /* BUTTON */
