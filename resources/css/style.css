@@ -54,7 +54,7 @@ nav {
 
 /* ----------------------------------------DESKTOP--------------------------------------------- */
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1025px) {
     .mobile {
         display: none;
     }
@@ -133,11 +133,13 @@ nav {
     /* CONTENT 1 */
 
     #content1 {
-        height: 800px;
+        height: 700px;
     }
 
     #content1 h2 {
+        text-align: center;
         height: 150px;
+        margin-bottom: 20px;
     }
 
     /* BUTTON */
@@ -152,24 +154,19 @@ nav {
         width: 300px;
         border-radius: 15px;
         background-color: #ff667b;
-        opacity: 0.9;
         box-shadow: 0 0 20px 0 rgb(255, 255, 255);
     }
 
     /* BUTTON HOVER & ACTIVE */
 
-    main #content1 .button {
-        transition: opacity 300ms ease-in-out,
-    }
-
     main #content1 .button:hover {
-        opacity: 1.0;
+        opacity: 0.5;
     }
 }
 
 /* -----------------------------------------------MOBILE-------------------------------------------- */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .desktop {
         display: none;
     }
@@ -178,6 +175,19 @@ nav {
         margin: 0;
         padding: 0;
     }
+
+    /* FONT-SIZE */
+
+    h2 {
+        font-size: 1.6em;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
 
     /* LOGO */
 
@@ -191,4 +201,36 @@ nav {
         height: 30px;
     }
 
+    /* CONTENT 1 */
+
+    #content1 {
+        height: 525px;
+    }
+
+    #content1 h2 {
+        text-align: center;
+        height: 150px;
+        margin: 0 10px;
+    }
+
+    /* BUTTON */
+
+    main #content1 .button {
+        cursor: pointer;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 60px;
+        width: 200px;
+        border-radius: 13px;
+        background-color: #ff667b;
+        box-shadow: 0 0 20px 0 rgb(255, 255, 255);
+    }
+
+    /* BUTTON HOVER & ACTIVE */
+
+    main #content1 .button:hover {
+        opacity: 0.5;
+    }
 }
